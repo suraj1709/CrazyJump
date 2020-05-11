@@ -1,0 +1,28 @@
+{
+  "name": "physics-js",
+  "version": "1.0.0",
+  "description": "It about physics in software devlopment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "start": "webpack-dev-server --node development --open"
+  },
+  "author": "Suraj Kumar Dey",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "matter-js": "^0.14.2",
+    "p5": "^1.0.0",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
