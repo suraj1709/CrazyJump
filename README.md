@@ -1,2 +1,2 @@
 # CrazyJump
-It is game for crazy player :)
+It is a game for crazy player :)
