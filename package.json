@@ -5,10 +5,11 @@
   "description": "It about physics in software devlopment",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dist",
     "dev": "webpack",
-    "start": "webpack-dev-server --node development --open",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "webpack-dev-server --node development --open"
+    
   },
   "author": "Suraj Kumar Dey",
   "license": "ISC",
