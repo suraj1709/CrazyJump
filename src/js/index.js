@@ -217,6 +217,6 @@ function won(x)
 }
 
   var playagain=document.querySelector('.playagain')
-  playagain.addEventListener('click',StartGame)
+  
 
 
