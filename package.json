@@ -1,11 +1,14 @@
 {
+ "homepage":"https://suraj1709.github.io/CrazyJump",
   "name": "physics-js",
   "version": "1.0.0",
   "description": "It about physics in software devlopment",
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
-    "start": "webpack-dev-server --node development --open"
+    "start": "webpack-dev-server --node development --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Suraj Kumar Dey",
   "license": "ISC",
@@ -20,6 +23,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
