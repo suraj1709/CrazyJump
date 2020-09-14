@@ -1,1 +1,8 @@
-theme: jekyll-theme-architect
+title: CrazyJump
+baseurl: '/CrazyJump/dist/js' #change it according to your repository name
+description: CrazyJump
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
